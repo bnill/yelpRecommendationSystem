@@ -1,0 +1,14 @@
+generate reviews datasets with businesses in city of Las Vegas, with businesses
+havning at least 500 reviews and with users having at least 50 reviews, using
+get_reviews_conditions method in preprocess.py file, and save it as csv file
+
+generate train, test datasets using get_train_test_conditioned method in
+models.py file, pass appropriate paths to save train, test methods by 
+changing appropriate file variables
+
+update file variables in load_train_test method of models.py file
+
+run models.py file using "python3 models.py" command
+
+You can change the number of topics for LDA by changing n_topics value in
+run_lda method 

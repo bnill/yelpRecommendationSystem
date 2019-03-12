@@ -1,0 +1,30 @@
+Total number of users are 1,518,169
+Total number of businesses are 188,593 
+
+In reviews dataset,
+1 user (wrqh88xVEE1U5d_5TjzN4Q) with 0 review (QW01qOsaqlxMKoMazOw1Bg) rating for business (FgNgBLayRFm6H6Qr66ecbQ)
+
+In tips dataset,
+Total tips are 1,185,351
+464,880 tips have corresponding star ratings (obtained from reviews dataset)
+After removing null star ratings from joined datasets of tips-reviews,
+  total rows are 464,880, there are 159,129 unique users, 88,009 unique businesses
+
+48089 users (353,840 reviews) have given more than =2 tips
+6557 users (220,679 reviews) have given more than =10 tips
+3077 users (174,157 reviews) have given more than =20 tips
+954 users (110,321 reviews) have given more than =50 tips
+
+Number of tips with corresponding ratings
+5.0: 226434
+4.0: 126418
+3.0: 48263
+1.0: 40168
+2.0: 23597
+
+Number of reviews and tips rated by
+  1 users and for 1 businesses are 464880
+  2 users and for 2 businesses are 330940
+  10 users and for 10 businesses are 134641
+  20 users and for 20 businesses are 74289
+  50 users and for 50 businesses are 22833

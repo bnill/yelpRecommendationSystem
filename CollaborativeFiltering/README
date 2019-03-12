@@ -1,0 +1,1 @@
+To Run the collaborative filtering, load the data set to "/data" directory in CF filter. Then run the separate.py and cf.py for recommendation. The return results are RMSE and correctRate. Minor changes needed to be added to test for training data.

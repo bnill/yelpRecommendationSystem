@@ -1,0 +1,22 @@
+The city selected: Las Vegas
+User have more than 50 reviews: 135715
+Restaurants in Las Vegas having more than 50 reviews: 6184
+After doing merge, we have got a [6179 rows x 83221 columns] Matrix
+So the Rating Matrix is a 83221 Users * 6179 Businusses. This could be used for final RMSE calculation
+The preprocess.py takes a really long time to finish.
+
+The output matrix is sparse.
+
+The portion of test data set is 0.275549. The data used here: user reviews >= 50, Business reviews >= 500. The Training data is 0.7 of the [user_id, business_id, stars]. The number of [business_id, user_id, star] in training set is 235418(with duplicate user_id), while in test data set is 89543, the business filtered is 635. The trainMatrix.csv is the csv saving the utility matrix, with column = user_id and row = business_id.
+
+item-item:
+The RMSE testSet = 1.2363808814682034
+The testSet correctionRate = 0.5499095396573674
+The RMSE trainSet = 0.2746696734675882
+The trainSet correctionRate =  0.8280115709570677
+
+user-user:
+The RMSE testSet = 3.8692160783369447
+The testSet correctionRate = 0.13280710409472126
+The RMSE trainSet = 3.4709942150044037
+The trainSet correctionRate = 0.28604426734738349
